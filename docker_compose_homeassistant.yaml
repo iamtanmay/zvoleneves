@@ -1,3 +1,7 @@
+#Run it with this command:
+# docker compose -f docker_compose_homeassistant.yaml up
+#Access at http://homeassistant.local:8123/
+
 services:
   homeassistant:
     container_name: homeassistant
